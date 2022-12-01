@@ -1,0 +1,40 @@
+/* INICIO DE ESTILO PARA EL BUSCARO DE buscar.php*/
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+#divResultados {
+  margin: -2px;
+
+}
+
+.resultados {
+  width: 222px;
+  margin-left: 2px;
+  padding: 5px;
+  font-size: 13px;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-color: black;
+
+}
+
+.resultados:hover {
+  background-color: rgb(161, 190, 235);
+  cursor: pointer;
+}
+
+#search {
+  width: 228px;
+  border-width: 1px;
+  outline: none;
+}
+
+#divFecha {
+  display: none;
+}
+
+
+/* FIN DE ESTILO PARA EL BUSCARO DE buscar.php*/
